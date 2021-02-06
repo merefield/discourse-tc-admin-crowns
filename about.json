@@ -1,7 +1,7 @@
 {
-  "name": "Admin Crowns",
+  "name": "Staff Icons",
   "about_url": "https://meta.discourse.org/t/cant-add-new-class-to-topic-page-elements-using-jquery/178568",
   "component": true,
   "authors": "Robert Barrow",
-  "about": "A simple Theme Component that places a crown icon by admins name in Post stream"
+  "about": "A simple Theme Component that allows you to substitute different icons to indicate types of staff"
 }
