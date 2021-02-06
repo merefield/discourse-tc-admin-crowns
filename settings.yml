@@ -1,0 +1,8 @@
+moderator_replacement_icon:
+  default: 'shield-alt'
+  description:
+    en:  "Replacement icon to represent moderators"
+admin_replacement_icon:
+  default: 'crown'
+  description:
+    en:  "Replacement icon to represent admins"

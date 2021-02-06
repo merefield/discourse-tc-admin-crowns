@@ -8,12 +8,12 @@ export default {
       api.reopenWidget("poster-name", {
         posterGlyph(attrs) {
           if (attrs.admin) {
-            return iconNode("crown", {
+            return iconNode(settings.admin_replacement_icon, {
               title: I18n.t("user.admin_tooltip"),
             });
           }
           if (attrs.moderator || attrs.groupModerator) {
-            return iconNode("shield-alt", {
+            return iconNode(settings.moderator_replacement_icon, {
               title: I18n.t("user.moderator_tooltip"),
             });
           }
